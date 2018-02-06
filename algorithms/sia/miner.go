@@ -53,6 +53,7 @@ func (m *Miner) Mine() {
 			MinerID:           minerID,
 			HashRateReports:   m.HashRateReports,
 			miningWorkChannel: m.miningWorkChannel,
+			Intensity:         m.Intensity,
 			GlobalItemSize:    m.GlobalItemSize,
 			Client:            m.Client,
 		}
